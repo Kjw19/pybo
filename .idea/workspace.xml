@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0d81bc83-e6ec-444b-952d-a08fdd6f74cc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pybo/question_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pybo/question_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
