@@ -6,6 +6,7 @@ from django.utils import timezone
 from ..forms import QuestionForm
 from pybo.models import Question
 
+
 @login_required(login_url='common:login')
 def question_create(request):
     if request.method == 'POST':
@@ -20,6 +21,7 @@ def question_create(request):
         form = QuestionForm()
     context = {'form': form}
     return render(request, 'pybo/question_form.html', context)
+
 
 @login_required(login_url='common:login')
 def question_modify(request, question_id):
@@ -48,4 +50,3 @@ def question_delete(request, question_id):
         return redirect('pybo:detail', question_id=question.id)
     question.delete()
     return redirect('pybo:index')
-
