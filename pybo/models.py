@@ -27,7 +27,7 @@ class Question(models.Model):
     # 조회수(view) 정수형 으로 정의
     view = models.PositiveBigIntegerField(default=0)
 
-    category = models.ForeignKey(Category, on_delete=models.CASCADE, related_name='category_question')
+    # category = models.ForeignKey(Category, on_delete=models.CASCADE, related_name='category_question')
 
     @property  # 호출 될때 마다 view 증가
     def update_view(self):
